@@ -2,8 +2,14 @@
 
 A production-ready multi-channel notification engine built with FastAPI, Celery, and Redis.
 
+## 🚀 Live Demo
+**Base URL:** https://pingflow-production.up.railway.app
+
+**Swagger UI:** https://pingflow-production.up.railway.app/docs
+
 ## Architecture
 Client → FastAPI → Redis Queue → Celery Worker → Email/Webhook
+
 ## Tech Stack
 
 - **FastAPI** — Async REST API framework
@@ -13,6 +19,7 @@ Client → FastAPI → Redis Queue → Celery Worker → Email/Webhook
 - **Docker Compose** — Container orchestration (4 services)
 - **Alembic** — Database migrations
 - **JWT** — Authentication
+- **Railway** — Cloud deployment
 
 ## Features
 
@@ -84,3 +91,6 @@ pingflow/
 ├── Dockerfile
 └── requirements.txt
 ```
+
+## 👤 Author
+M. Ammar Ramadan Bachdar
